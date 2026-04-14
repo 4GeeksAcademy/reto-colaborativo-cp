@@ -1,0 +1,20 @@
+/* Fuente general */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Logo elegante */
+.logo-font {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
+
+/* Ocultar scroll feo */
+::-webkit-scrollbar {
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}

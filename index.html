@@ -1,11 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Maison Chic</title>
 </head>
+
 <body>
-    <h1>Hello world!</h1>
+
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur border-b border-gray-200 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+            <!-- Logo elegante -->
+            <div class="text-2xl logo-font">
+                Maison Chic
+            </div>
+
+            <!-- Buscador -->
+            <div class="flex-1 mx-8 relative">
+                <input type="text" placeholder="Buscar prendas..."
+                    class="w-full border border-gray-300 rounded-full pl-10 pr-4 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-black" />
+                <!-- Icono lupa -->
+                <span class="absolute left-3 top-2.5 text-gray-400">
+                    🔍
+                </span>
+            </div>
+
+            <!-- Acciones -->
+            <div class="flex items-center gap-6">
+
+                <!-- Carrito -->
+                <button class="relative text-xl">
+                    🛍️
+                    <span class="absolute -top-2 -right-2 bg-black text-white text-xs rounded-full px-1">
+                        2
+                    </span>
+                </button>
+
+                <!-- Usuario Dropdown -->
+                <div class="relative">
+                    <button id="userMenuBtn" class="text-sm flex items-center gap-1">
+                        Cuenta
+                        <span>▾</span>
+                    </button>
+
+                    <!-- Dropdown -->
+                    <div id="userDropdown"
+                        class="absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded-lg shadow-md hidden">
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">Iniciar sesión</a>
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">Registrarse</a>
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">Mis pedidos</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Espacio -->
+    <!-- <div class="h-24"></div> -->
+
+    <!-- Hero Section -->
+    <section class="relative h-[100vh] flex items-center justify-center">
+
+        <!-- Imagen de fondo -->
+        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d" alt="Moda elegante"
+            class="absolute inset-0 w-full h-full object-cover" />
+
+        <!-- Overlay oscuro -->
+        <div class="absolute inset-0 bg-black/30"></div>
+
+        <!-- Contenido -->
+        <div class="relative text-center text-white px-6">
+
+            <h1 class="text-4xl md:text-6xl logo-font mb-4">
+                Nueva Colección 2026
+            </h1>
+
+            <p class="text-lg md:text-xl mb-6 font-light">
+                Elegancia atemporal para cada ocasión
+            </p>
+
+            <button class="bg-white text-black px-8 py-3 rounded-full text-sm font-medium hover:bg-gray-200 transition">
+                Ver colección
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- NUEVOS LANZAMIENTOS -->
+    <section class="max-w-7xl mx-auto px-6 py-12">
+
+        <h2 class="text-2xl mb-8 text-center">
+            Nuevos lanzamientos
+        </h2>
+
+        <div class="flex justify-center">
+            <div class="flex gap-8 overflow-x-auto pb-4 max-w-5xl">
+
+                <!-- Card -->
+                <div class="w-[280px] flex-shrink-0 bg-white rounded-xl shadow-sm hover:shadow-md transition">
+                    <img src="https://riveraspain.com/cdn/shop/files/1-original_dad39aba-8dfa-4b27-8825-426a09ae3e5c.jpg?v=1772193172&width=320"
+                        class="w-full h-72 object-cover rounded-t-xl" />
+                    <div class="p-4">
+                        <p class="text-sm">Blazer Elegante</p>
+                        <p class="text-gray-500 text-sm">$120</p>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="w-[280px] flex-shrink-0 bg-white rounded-xl shadow-sm hover:shadow-md transition">
+                    <img src="https://f.fcdn.app/imgs/e10c19/laopera.com.uy/opr/75d9/original/catalogo/2333481-900-1/600x783/vestido-satinado-nudo-negro.jpg"
+                        class="w-full h-72 object-cover rounded-t-xl" />
+                    <div class="p-4">
+                        <p class="text-sm">Vestido Satinado</p>
+                        <p class="text-gray-500 text-sm">$95</p>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="w-[280px] flex-shrink-0 bg-white rounded-xl shadow-sm hover:shadow-md transition">
+                    <img src="https://img.kwcdn.com/product/fancy/502f7c97-1543-43c1-aca3-be245377d31b.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+                        class="w-full h-72 object-cover rounded-t-xl" />
+                    <div class="p-4">
+                        <p class="text-sm">Camisa Clásica</p>
+                        <p class="text-gray-500 text-sm">$60</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MÁS VENDIDOS -->
+    <section class="max-w-7xl mx-auto px-6 py-12">
+
+        <h2 class="text-2xl mb-8 text-center">
+            Más vendidos
+        </h2>
+
+        <div class="flex justify-center">
+            <div class="flex gap-8 overflow-x-auto pb-4 max-w-5xl">
+
+                <!-- Card -->
+                <div class="w-[280px] flex-shrink-0 bg-white rounded-xl shadow-sm hover:shadow-md transition">
+                    <img src="https://anntarah-us.com/cdn/shop/files/FLORIAN-COAT-C002-PRINCIPAL_e45d618b-43f9-4412-8b7a-d61e59dede32_800x.png?v=1763667791"
+                      class="w-full h-72 object-cover rounded-t-xl" />
+                    <div class="p-4">
+                        <p class="text-sm">Abrigo Premium</p>
+                        <p class="text-gray-500 text-sm">$180</p>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="w-[280px] flex-shrink-0 bg-white rounded-xl shadow-sm hover:shadow-md transition">
+                    <img src="https://lrsa-media.lojasrenner.com.br/uri/medium_927972534_001_3_5bf1f35d43.jpg"
+                        class="w-full h-72 object-cover rounded-t-xl" />
+                    <div class="p-4">
+                        <p class="text-sm">Pantalón Formal</p>
+                        <p class="text-gray-500 text-sm">$85</p>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="w-[280px] flex-shrink-0 bg-white rounded-xl shadow-sm hover:shadow-md transition">
+                    <img src="https://i.pinimg.com/474x/db/1c/da/db1cda0b8838975285ea92293a1ef9b6.jpg"
+                        class="w-full h-72 object-cover rounded-t-xl" />
+                    <div class="p-4">
+                        <p class="text-sm">Zapatos Elegantes</p>
+                        <p class="text-gray-500 text-sm">$140</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
