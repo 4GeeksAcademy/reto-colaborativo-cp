@@ -21,6 +21,10 @@ Antes de avanzar a desarrollo completo, necesitan ver un prototipo que incluya a
 
 Ha llegado el momento de brillar. La consultora armó un equipo para el proyecto y te asignó a ti y a otra persona para sacarlo adelante.
 
+<div align="center">
+  <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d" alt="Moda elegante" />
+</div>
+
 ## Especificaciones por vista
 Tu project manager te ha compartido un documento con la estructura mínima de cada vista para evitar olvidos y asegurar que el prototipo cubra lo que el cliente espera.
 
