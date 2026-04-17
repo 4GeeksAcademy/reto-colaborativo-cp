@@ -1,0 +1,877 @@
+[
+  {
+    "id": 1,
+    "nombre": "Camisa Blanca Clásica",
+    "codigo": "MC-001",
+    "precio": 2990,
+    "categoria": "camisas",
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "imagen": "https://plus.unsplash.com/premium_photo-1661601903363-61c65b061e30?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 10,
+    "descripcion": {
+      "materiales": "Algodón 100%",
+      "uso": "Ideal para oficina y eventos formales"
+    }
+  },
+  {
+    "id": 2,
+    "nombre": "Camisa Negra Slim",
+    "codigo": "MC-002",
+    "precio": 3190,
+    "categoria": "camisas",
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "imagen": "https://plus.unsplash.com/premium_photo-1689536140577-5ef1210896f0?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 8,
+    "descripcion": {
+      "materiales": "Algodón con elastano",
+      "uso": "Looks modernos y salidas nocturnas"
+    }
+  },
+  {
+    "id": 3,
+    "nombre": "Camisa Rayada Azul",
+    "codigo": "MC-003",
+    "precio": 2890,
+    "categoria": "camisas",
+    "tallas": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "imagen": "https://images.unsplash.com/photo-1776249498123-3b8582c1b2bc?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 12,
+    "descripcion": {
+      "materiales": "Algodón ligero",
+      "uso": "Uso diario y casual"
+    }
+  },
+  {
+    "id": 4,
+    "nombre": "Pantalón Negro Slim",
+    "codigo": "MP-004",
+    "precio": 4590,
+    "categoria": "pantalones",
+    "tallas": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "imagen": "https://images.unsplash.com/photo-1737030421393-ec73bbb9332b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 9,
+    "descripcion": {
+      "materiales": "Algodón y elastano",
+      "uso": "Oficina y eventos"
+    }
+  },
+  {
+    "id": 5,
+    "nombre": "Pantalón Beige Clásico",
+    "codigo": "MP-005",
+    "precio": 4290,
+    "categoria": "pantalones",
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "imagen": "https://plus.unsplash.com/premium_photo-1675034813459-e2232141da11?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 11,
+    "descripcion": {
+      "materiales": "Gabardina",
+      "uso": "Casual elegante"
+    }
+  },
+  {
+    "id": 6,
+    "nombre": "Jeans Azul Regular",
+    "codigo": "MP-006",
+    "precio": 3990,
+    "categoria": "pantalones",
+    "tallas": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "imagen": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&h=600&fit=crop",
+    "stock": 14,
+    "descripcion": {
+      "materiales": "Denim",
+      "uso": "Uso diario"
+    }
+  },
+  {
+    "id": 7,
+    "nombre": "Zapatillas Urbanas Blancas",
+    "codigo": "MZ-007",
+    "precio": 5990,
+    "categoria": "calzado",
+    "tallas": [
+      "40",
+      "41",
+      "42"
+    ],
+    "imagen": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500&h=600&fit=crop",
+    "stock": 15,
+    "descripcion": {
+      "materiales": "Cuero sintético",
+      "uso": "Ciudad y caminatas"
+    }
+  },
+  {
+    "id": 8,
+    "nombre": "Zapatillas Negras Running",
+    "codigo": "MZ-008",
+    "precio": 6490,
+    "categoria": "calzado",
+    "tallas": [
+      "41",
+      "42",
+      "43"
+    ],
+    "imagen": "https://images.unsplash.com/photo-1582898967731-b5834427fd66?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 10,
+    "descripcion": {
+      "materiales": "Tela técnica",
+      "uso": "Deporte"
+    }
+  },
+  {
+    "id": 9,
+    "nombre": "Botas Cuero Marrón",
+    "codigo": "MZ-009",
+    "precio": 7990,
+    "categoria": "calzado",
+    "tallas": [
+      "40",
+      "41",
+      "42"
+    ],
+    "imagen": "https://plus.unsplash.com/premium_photo-1757341567523-d891718c26f0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "stock": 6,
+    "descripcion": {
+      "materiales": "Cuero",
+      "uso": "Invierno y salidas"
+    }
+  },
+  {
+    "id": 10,
+    "nombre": "Bolso Minimalista Negro",
+    "codigo": "MA-010",
+    "precio": 3490,
+    "categoria": "accesorios",
+    "tallas": [
+      "Única"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 7,
+    "descripcion": {
+      "materiales": "Cuero vegano",
+      "uso": "Uso diario"
+    }
+  },
+  {
+    "id": 11,
+    "nombre": "Cartera Elegante Beige",
+    "codigo": "MA-011",
+    "precio": 3890,
+    "categoria": "accesorios",
+    "tallas": [
+      "Única"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 9,
+    "descripcion": {
+      "materiales": "Sintético premium",
+      "uso": "Eventos"
+    }
+  },
+  {
+    "id": 12,
+    "nombre": "Camisa Verde Oliva",
+    "codigo": "MC-012",
+    "precio": 2790,
+    "categoria": "camisas",
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 13,
+    "descripcion": {
+      "materiales": "Algodón",
+      "uso": "Casual"
+    }
+  },
+  {
+    "id": 13,
+    "nombre": "Camisa Denim",
+    "codigo": "MC-013",
+    "precio": 3590,
+    "categoria": "camisas",
+    "tallas": [
+      "M",
+      "L"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 10,
+    "descripcion": {
+      "materiales": "Denim",
+      "uso": "Street style"
+    }
+  },
+  {
+    "id": 14,
+    "nombre": "Jeans Negro Slim",
+    "codigo": "MP-014",
+    "precio": 4190,
+    "categoria": "pantalones",
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 8,
+    "descripcion": {
+      "materiales": "Denim",
+      "uso": "Casual moderno"
+    }
+  },
+  {
+    "id": 15,
+    "nombre": "Pantalón Jogger Gris",
+    "codigo": "MP-015",
+    "precio": 3690,
+    "categoria": "pantalones",
+    "tallas": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 12,
+    "descripcion": {
+      "materiales": "Algodón",
+      "uso": "Relax"
+    }
+  },
+  {
+    "id": 16,
+    "nombre": "Zapatillas Retro",
+    "codigo": "MZ-016",
+    "precio": 6290,
+    "categoria": "calzado",
+    "tallas": [
+      "40",
+      "41",
+      "42"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 9,
+    "descripcion": {
+      "materiales": "Sintético",
+      "uso": "Casual urbano"
+    }
+  },
+  {
+    "id": 17,
+    "nombre": "Mochila Urbana",
+    "codigo": "MA-017",
+    "precio": 2990,
+    "categoria": "accesorios",
+    "tallas": [
+      "Única"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 11,
+    "descripcion": {
+      "materiales": "Tela resistente",
+      "uso": "Uso diario"
+    }
+  },
+  {
+    "id": 18,
+    "nombre": "Camisa Celeste Formal",
+    "codigo": "MC-018",
+    "precio": 3090,
+    "categoria": "camisas",
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 10,
+    "descripcion": {
+      "materiales": "Algodón premium",
+      "uso": "Oficina y reuniones formales"
+    }
+  },
+  {
+    "id": 19,
+    "nombre": "Camisa Negra Oversize",
+    "codigo": "MC-019",
+    "precio": 3290,
+    "categoria": "camisas",
+    "tallas": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 9,
+    "descripcion": {
+      "materiales": "Algodón suave",
+      "uso": "Outfits urbanos modernos"
+    }
+  },
+  {
+    "id": 20,
+    "nombre": "Pantalón Gris Clásico",
+    "codigo": "MP-020",
+    "precio": 4390,
+    "categoria": "pantalones",
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 7,
+    "descripcion": {
+      "materiales": "Gabardina",
+      "uso": "Looks formales"
+    }
+  },
+  {
+    "id": 21,
+    "nombre": "Jeans Azul Oscuro Slim",
+    "codigo": "MP-021",
+    "precio": 4190,
+    "categoria": "pantalones",
+    "tallas": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 12,
+    "descripcion": {
+      "materiales": "Denim stretch",
+      "uso": "Uso diario"
+    }
+  },
+  {
+    "id": 22,
+    "nombre": "Jogger Negro Deportivo",
+    "codigo": "MP-022",
+    "precio": 3590,
+    "categoria": "pantalones",
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 14,
+    "descripcion": {
+      "materiales": "Algodón con poliéster",
+      "uso": "Deporte y relax"
+    }
+  },
+  {
+    "id": 23,
+    "nombre": "Zapatillas Blancas Minimal",
+    "codigo": "MZ-023",
+    "precio": 5790,
+    "categoria": "calzado",
+    "tallas": [
+      "40",
+      "41",
+      "42"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 11,
+    "descripcion": {
+      "materiales": "Cuero sintético",
+      "uso": "Casual urbano"
+    }
+  },
+  {
+    "id": 24,
+    "nombre": "Zapatillas Running Pro",
+    "codigo": "MZ-024",
+    "precio": 6890,
+    "categoria": "calzado",
+    "tallas": [
+      "41",
+      "42",
+      "43"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 8,
+    "descripcion": {
+      "materiales": "Malla técnica",
+      "uso": "Running y entrenamiento"
+    }
+  },
+  {
+    "id": 25,
+    "nombre": "Botines Negros Elegantes",
+    "codigo": "MZ-025",
+    "precio": 7990,
+    "categoria": "calzado",
+    "tallas": [
+      "40",
+      "41",
+      "42"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 6,
+    "descripcion": {
+      "materiales": "Cuero",
+      "uso": "Eventos y salidas"
+    }
+  },
+  {
+    "id": 26,
+    "nombre": "Cartera Negra Clásica",
+    "codigo": "MA-026",
+    "precio": 3690,
+    "categoria": "accesorios",
+    "tallas": [
+      "Única"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 10,
+    "descripcion": {
+      "materiales": "Cuero vegano",
+      "uso": "Uso diario"
+    }
+  },
+  {
+    "id": 27,
+    "nombre": "Bolso Deportivo",
+    "codigo": "MA-027",
+    "precio": 3290,
+    "categoria": "accesorios",
+    "tallas": [
+      "Única"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 9,
+    "descripcion": {
+      "materiales": "Tela impermeable",
+      "uso": "Gimnasio y viajes"
+    }
+  },
+  {
+    "id": 28,
+    "nombre": "Mochila Ejecutiva",
+    "codigo": "MA-028",
+    "precio": 3890,
+    "categoria": "accesorios",
+    "tallas": [
+      "Única"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 7,
+    "descripcion": {
+      "materiales": "Poliéster resistente",
+      "uso": "Trabajo y estudio"
+    }
+  },
+  {
+    "id": 29,
+    "nombre": "Camisa Estampada Verano",
+    "codigo": "MC-029",
+    "precio": 2790,
+    "categoria": "camisas",
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 13,
+    "descripcion": {
+      "materiales": "Algodón liviano",
+      "uso": "Climas cálidos"
+    }
+  },
+  {
+    "id": 30,
+    "nombre": "Pantalón Cargo Verde",
+    "codigo": "MP-030",
+    "precio": 4490,
+    "categoria": "pantalones",
+    "tallas": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 11,
+    "descripcion": {
+      "materiales": "Algodón resistente",
+      "uso": "Casual y urbano"
+    }
+  },
+  {
+    "id": 31,
+    "nombre": "Camisa Blanca Premium",
+    "codigo": "MC-031",
+    "precio": 3490,
+    "categoria": "camisas",
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 10,
+    "descripcion": {
+      "materiales": "Algodón egipcio",
+      "uso": "Eventos formales"
+    }
+  },
+  {
+    "id": 32,
+    "nombre": "Camisa Cuadros Casual",
+    "codigo": "MC-032",
+    "precio": 2890,
+    "categoria": "camisas",
+    "tallas": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 12,
+    "descripcion": {
+      "materiales": "Algodón",
+      "uso": "Uso diario"
+    }
+  },
+  {
+    "id": 33,
+    "nombre": "Pantalón Beige Slim",
+    "codigo": "MP-033",
+    "precio": 4290,
+    "categoria": "pantalones",
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 9,
+    "descripcion": {
+      "materiales": "Gabardina",
+      "uso": "Casual elegante"
+    }
+  },
+  {
+    "id": 34,
+    "nombre": "Jeans Gris Claro",
+    "codigo": "MP-034",
+    "precio": 3990,
+    "categoria": "pantalones",
+    "tallas": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 11,
+    "descripcion": {
+      "materiales": "Denim",
+      "uso": "Uso diario"
+    }
+  },
+  {
+    "id": 35,
+    "nombre": "Jogger Azul Deportivo",
+    "codigo": "MP-035",
+    "precio": 3690,
+    "categoria": "pantalones",
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 14,
+    "descripcion": {
+      "materiales": "Algodón",
+      "uso": "Deporte"
+    }
+  },
+  {
+    "id": 36,
+    "nombre": "Zapatillas Running Lite",
+    "codigo": "MZ-036",
+    "precio": 6190,
+    "categoria": "calzado",
+    "tallas": [
+      "40",
+      "41",
+      "42"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 10,
+    "descripcion": {
+      "materiales": "Tela técnica",
+      "uso": "Entrenamiento"
+    }
+  },
+  {
+    "id": 37,
+    "nombre": "Zapatillas Negras Urban",
+    "codigo": "MZ-037",
+    "precio": 5890,
+    "categoria": "calzado",
+    "tallas": [
+      "41",
+      "42",
+      "43"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 8,
+    "descripcion": {
+      "materiales": "Sintético",
+      "uso": "Ciudad"
+    }
+  },
+  {
+    "id": 38,
+    "nombre": "Botas Urbanas Marrón",
+    "codigo": "MZ-038",
+    "precio": 8290,
+    "categoria": "calzado",
+    "tallas": [
+      "40",
+      "41",
+      "42"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 6,
+    "descripcion": {
+      "materiales": "Cuero",
+      "uso": "Invierno"
+    }
+  },
+  {
+    "id": 39,
+    "nombre": "Bolso Viaje Grande",
+    "codigo": "MA-039",
+    "precio": 4590,
+    "categoria": "accesorios",
+    "tallas": [
+      "Única"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 7,
+    "descripcion": {
+      "materiales": "Tela impermeable",
+      "uso": "Viajes"
+    }
+  },
+  {
+    "id": 40,
+    "nombre": "Cartera Cuero Premium",
+    "codigo": "MA-040",
+    "precio": 4990,
+    "categoria": "accesorios",
+    "tallas": [
+      "Única"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 9,
+    "descripcion": {
+      "materiales": "Cuero",
+      "uso": "Elegante"
+    }
+  },
+  {
+    "id": 41,
+    "nombre": "Mochila Escolar",
+    "codigo": "MA-041",
+    "precio": 2790,
+    "categoria": "accesorios",
+    "tallas": [
+      "Única"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 13,
+    "descripcion": {
+      "materiales": "Tela resistente",
+      "uso": "Estudio"
+    }
+  },
+  {
+    "id": 42,
+    "nombre": "Camisa Lino Verano",
+    "codigo": "MC-042",
+    "precio": 3190,
+    "categoria": "camisas",
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 10,
+    "descripcion": {
+      "materiales": "Lino",
+      "uso": "Climas cálidos"
+    }
+  },
+  {
+    "id": 43,
+    "nombre": "Camisa Negra Elegante",
+    "codigo": "MC-043",
+    "precio": 3390,
+    "categoria": "camisas",
+    "tallas": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 8,
+    "descripcion": {
+      "materiales": "Algodón",
+      "uso": "Eventos nocturnos"
+    }
+  },
+  {
+    "id": 44,
+    "nombre": "Pantalón Formal Azul",
+    "codigo": "MP-044",
+    "precio": 4690,
+    "categoria": "pantalones",
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 9,
+    "descripcion": {
+      "materiales": "Gabardina",
+      "uso": "Oficina"
+    }
+  },
+  {
+    "id": 45,
+    "nombre": "Jeans Ripped Modern",
+    "codigo": "MP-045",
+    "precio": 4290,
+    "categoria": "pantalones",
+    "tallas": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 11,
+    "descripcion": {
+      "materiales": "Denim",
+      "uso": "Street style"
+    }
+  },
+  {
+    "id": 46,
+    "nombre": "Zapatillas Street Style",
+    "codigo": "MZ-046",
+    "precio": 6490,
+    "categoria": "calzado",
+    "tallas": [
+      "40",
+      "41",
+      "42"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 10,
+    "descripcion": {
+      "materiales": "Sintético",
+      "uso": "Casual urbano"
+    }
+  },
+  {
+    "id": 47,
+    "nombre": "Botines Negros Clásicos",
+    "codigo": "MZ-047",
+    "precio": 7990,
+    "categoria": "calzado",
+    "tallas": [
+      "40",
+      "41",
+      "42"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 6,
+    "descripcion": {
+      "materiales": "Cuero",
+      "uso": "Elegante"
+    }
+  },
+  {
+    "id": 48,
+    "nombre": "Bolso Crossbody",
+    "codigo": "MA-048",
+    "precio": 3190,
+    "categoria": "accesorios",
+    "tallas": [
+      "Única"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 12,
+    "descripcion": {
+      "materiales": "Cuero vegano",
+      "uso": "Uso diario"
+    }
+  },
+  {
+    "id": 49,
+    "nombre": "Mochila Compacta",
+    "codigo": "MA-049",
+    "precio": 2690,
+    "categoria": "accesorios",
+    "tallas": [
+      "Única"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 14,
+    "descripcion": {
+      "materiales": "Tela liviana",
+      "uso": "Viajes cortos"
+    }
+  },
+  {
+    "id": 50,
+    "nombre": "Cartera Mini Elegante",
+    "codigo": "MA-050",
+    "precio": 2990,
+    "categoria": "accesorios",
+    "tallas": [
+      "Única"
+    ],
+    "imagen": "https://via.placeholder.com/500x600",
+    "stock": 9,
+    "descripcion": {
+      "materiales": "Sintético premium",
+      "uso": "Eventos"
+    }
+  }
+]

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Maison Chic</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur border-b border-gray-200 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+            <!-- Logo elegante -->
+            <div class="text-2xl logo-font">
+                Maison Chic
+            </div>
+
+            <!-- Buscador -->
+            <div class="flex-1 mx-8 relative">
+                <input type="text" placeholder="Buscar prendas..."
+                    class="w-full border border-gray-300 rounded-full pl-10 pr-4 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-black" />
+                <!-- Icono lupa -->
+                <span class="absolute left-3 top-2.5 text-gray-400">
+                    🔍
+                </span>
+            </div>
+
+            <!-- Acciones -->
+            <div class="flex items-center gap-6">
+
+                <!-- Carrito -->
+                <button class="relative text-xl">
+                    🛍️
+                    <span class="absolute -top-2 -right-2 bg-black text-white text-xs rounded-full px-1">
+                        2
+                    </span>
+                </button>
+
+                <!-- Usuario Dropdown -->
+                <div class="relative">
+                    <button id="userMenuBtn" class="text-sm flex items-center gap-1">
+                        Cuenta
+                        <span>▾</span>
+                    </button>
+
+                    <!-- Dropdown -->
+                    <div id="userDropdown"
+                        class="absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded-lg shadow-md hidden">
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">Iniciar sesión</a>
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">Registrarse</a>
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">Mis pedidos</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- Barra de filtros -->
+    <section class="max-w-7xl mx-auto px-6 mt-24 mb-8">
+        <div
+            class="bg-white border border-gray-200 rounded-xl p-4 flex flex-col md:flex-row gap-4 md:items-center md:justify-between">
+
+            <!-- Filtro por categoría -->
+            <div class="flex flex-col">
+                <label class="text-sm text-gray-600 mb-1">Categoría</label>
+                <select
+                    class="border border-gray-300 rounded-lg px-3 py-2 text-base w-64 text-sm focus:outline-none focus:ring-1 focus:ring-black">
+                    <option value="">Todas</option>
+                    <option value="calzado">Calzado</option>
+                    <option value="camisas">Camisas</option>
+                    <option value="pantalones">Pantalones</option>
+                    <option value="accesorios">Accesorios</option>
+                </select>
+            </div>
+
+            <!-- Filtro por talla -->
+            <div class="flex flex-col">
+                <label class="text-sm text-gray-600 mb-1">Talla</label>
+                <select
+                    class="border border-gray-300 rounded-lg px-3 py-2 text-base w-64 focus:outline-none focus:ring-2 focus:ring-black">
+                    <option value="">Todas</option>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                </select>
+            </div>
+
+            <!-- Botón limpiar (opcional pero pro) -->
+            <div class="md:self-end">
+                <button class="text-sm underline text-gray-600 hover:text-black">
+                    Limpiar filtros
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Listado de productos -->
+    <section class="max-w-7xl mx-auto px-6 pb-16">
+        <div id="productosGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Acá aparecen los productos -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white mt-16">
+        <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- Categorías -->
+            <div>
+                <h3 class="text-lg logo-font mb-4">Categorías</h3>
+                <ul class="space-y-2 text-sm text-gray-300">
+                    <li><a href="#" class="hover:text-white">Calzado</a></li>
+                    <li><a href="#" class="hover:text-white">Camisas</a></li>
+                    <li><a href="#" class="hover:text-white">Pantalones</a></li>
+                    <li><a href="#" class="hover:text-white">Accesorios</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal -->
+            <div>
+                <h3 class="text-lg logo-font mb-4">Legal</h3>
+                <ul class="space-y-2 text-sm text-gray-300">
+                    <li><a href="#" class="hover:text-white">Términos y condiciones</a></li>
+                    <li><a href="#" class="hover:text-white">Política de privacidad</a></li>
+                    <li><a href="#" class="hover:text-white">Sobre la marca</a></li>
+                </ul>
+            </div>
+
+            <!-- Contacto -->
+            <div>
+                <h3 class="text-lg logo-font mb-4">Contacto</h3>
+                <ul class="space-y-2 text-sm text-gray-300">
+                    <li>Email: contacto@maisonchic.com</li>
+                    <li>Tel: +598 99 123 456</li>
+                    <li>Colonia, Uruguay</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Línea inferior -->
+        <div class="border-t border-gray-700 text-center text-sm text-gray-400 py-4">
+            © 2026 Maison Chic — Todos los derechos reservados
+            <p class="mt-1">Desarrollo web: <a href="https://portfolio-cecilia.vercel.app/" target="_blank"
+                    rel="noopener noreferrer" class="text-amber-300 hover:underline">Cecilia Perdomo</a></p>
+        </div>
+    </footer>
+
+    <script src="./producto.js"></script>
+</body>
+
+</html>
