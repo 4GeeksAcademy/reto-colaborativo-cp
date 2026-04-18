@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Carrito | Maison Chic</title>
+</head>
+
+<body class="bg-gray-50">
+
+  <!-- Header simple -->
+  <header class="bg-white border-b">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between">
+      <h1 class="text-xl font-semibold">Carrito</h1>
+      <a href="index.html" class="text-sm text-gray-600 hover:underline">← Seguir comprando</a>
+    </div>
+  </header>
+
+  <!-- Contenido -->
+  <main class="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8">
+
+    <!-- 🛍️ Lista de productos -->
+    <section class="md:col-span-2 bg-white p-6 rounded-xl border border-gray-200">
+
+      <h2 class="text-lg font-medium mb-6">Productos</h2>
+
+      <!-- Producto -->
+      <div class="flex items-center gap-4 border-b pb-4 mb-4">
+        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=100&h=120&fit=crop" class="w-20 h-24 object-cover rounded">
+
+        <div class="flex-1">
+          <h3 class="text-sm font-medium">Jeans Azul Regular</h3>
+          <p class="text-sm text-gray-500">$3.990</p>
+        </div>
+
+        <input type="number" value="1" min="1" class="w-16 border rounded px-2 py-1">
+
+        <p class="text-sm font-medium">$3.990</p>
+      </div>
+
+      <!-- Producto -->
+      <div class="flex items-center gap-4 border-b pb-4 mb-4">
+        <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=100&h=120&fit=crop" class="w-20 h-24 object-cover rounded">
+
+        <div class="flex-1">
+          <h3 class="text-sm font-medium">Zapatillas Blancas</h3>
+          <p class="text-sm text-gray-500">$5.990</p>
+        </div>
+
+        <input type="number" value="2" min="1" class="w-16 border rounded px-2 py-1">
+
+        <p class="text-sm font-medium">$11.980</p>
+      </div>
+
+      <!-- Producto -->
+      <div class="flex items-center gap-4">
+        <img src="https://images.unsplash.com/photo-1593032465171-8eec3e06f7c5?w=100&h=120&fit=crop" class="w-20 h-24 object-cover rounded">
+
+        <div class="flex-1">
+          <h3 class="text-sm font-medium">Bolso Minimalista</h3>
+          <p class="text-sm text-gray-500">$3.490</p>
+        </div>
+
+        <input type="number" value="1" min="1" class="w-16 border rounded px-2 py-1">
+
+        <p class="text-sm font-medium">$3.490</p>
+      </div>
+
+    </section>
+
+    <!-- 💰 Resumen -->
+    <aside class="bg-white p-6 rounded-xl border border-gray-200 h-fit">
+
+      <h2 class="text-lg font-medium mb-6">Resumen</h2>
+
+      <div class="space-y-3 text-sm">
+        <div class="flex justify-between">
+          <span>Subtotal</span>
+          <span>$19.460</span>
+        </div>
+
+        <div class="flex justify-between">
+          <span>Impuestos (10%)</span>
+          <span>$1.946</span>
+        </div>
+
+        <div class="flex justify-between font-medium text-base border-t pt-3">
+          <span>Total</span>
+          <span>$21.406</span>
+        </div>
+      </div>
+
+      <button class="w-full mt-6 bg-black text-white py-3 rounded-lg hover:bg-gray-800 transition">
+        Comprar
+      </button>
+
+    </aside>
+
+  </main>
+
+</body>
+</html>
