@@ -8,8 +8,10 @@ async function cargarProductos() {
         const primeros20 = productos.slice(0, 20);
 
         primeros20.forEach(prod => {
-            const card = document.createElement('div');
-            card.className = "group cursor-pointer border border-gray-200 rounded-xl p-3 hover:shadow-md transition";
+            const card = document.createElement('a');
+            card.href = `detalle-producto.html?id=${prod.id}`;
+            card.className = "group block cursor-pointer border border-gray-200 rounded-xl p-3 hover:shadow-md transition";
+            card.setAttribute('aria-label', `Ver detalle de ${prod.nombre}`);
 
             card.innerHTML = `
                 <div class="bg-gray-100 rounded-xl overflow-hidden">
